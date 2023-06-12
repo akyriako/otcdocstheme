@@ -2,7 +2,25 @@
   <div class="docs-sidebar-toc collapse" aria-label="Docs navigation" id="docs-sidebar-nav">
   {%- if theme_display_global_toc_section %}
     <div class="docs-sidebar-section" id="table-of-contents">
-      <a href="{{ pathto(master_doc) }}" class="docs-sidebar-section-title"><h4>{{project}} {{version}}</h4></a>
+<!--      <a href="{{ pathto(master_doc) }}" class="docs-sidebar-section-title"><h4>{{project}} {{version}}</h4></a>-->
+
+      {%- if theme_disable_search is not sameas true %}
+  <!-- Form for input, onSubmit="return false" to prevent reloading the page when pressing enter -->
+  <form id="searchInput" onsubmit="return false">
+    <div class="input-group" id="searchInputGroup">
+      <input id="searchbox" class="form-control delete-right-border" placeholder="Type here to search" onfocus="addBoxShadow(event)" onfocusout="removeBoxShadow(event)" oninput="returnValue(event)" onkeyup="onEnter(event)">
+      <span class="input-group-text delete-search-text d-none" onclick="deleteEnterResults()" id="DeleteSearchText">
+        <i class="fa fa-close"></i>
+      </span>
+      <span class="input-group-text add-left-border" style="background-color: var(--dt-color-white)" onclick="searchMainResult()">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </span>
+    </div>
+
+    <ul class="dropdown-menu overflow-hidden" style="max-width:100%" id="searchDropdown"></ul>
+  </form>
+{%- endif %}
+
       {%- if theme_sidebar_mode == 'toc' %}
       {{ toc }}
       {%- elif theme_sidebar_mode == 'toctree' %}
