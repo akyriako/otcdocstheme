@@ -26,3 +26,6 @@ releasenotes/build
 /.aux
 /.fdb_latexmk
 /texput.fls
+/node_modules/
+node_modules/*
+/otcdocstheme/theme/otcdocs/static/node_modules/
