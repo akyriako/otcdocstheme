@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="792c0f59-b608-4319-a908-37fbf53e59d6" name="Changes" comment="- remove redundant npms, added caf on main nav">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otcdocstheme/theme/otcdocs/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/otcdocstheme/theme/otcdocs/header.html" afterDir="false" />
+    <list default="true" id="792c0f59-b608-4319-a908-37fbf53e59d6" name="Changes" comment="- excluded node_modules">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694434883310</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- added caf in burger nav">
+      <option name="closed" value="true" />
+      <created>1694510182429</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694510182429</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- excluded node_modules">
+      <option name="closed" value="true" />
+      <created>1694510395917</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694510395917</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +143,8 @@
     <MESSAGE value="- full commit of all npm packages" />
     <MESSAGE value="- temporary make file" />
     <MESSAGE value="- remove redundant npms, added caf on main nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="- remove redundant npms, added caf on main nav" />
+    <MESSAGE value="- added caf in burger nav" />
+    <MESSAGE value="- excluded node_modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="- excluded node_modules" />
   </component>
 </project>

@@ -5,6 +5,7 @@ _build/
 /build/
 build/*
 /otcdocstheme.egg-info/
+/otcdocstheme/theme/otcdocs/static/node_modules/
 .DS_Store
 *.pyc
 doc/build
@@ -28,4 +29,3 @@ releasenotes/build
 /texput.fls
 /node_modules/
 node_modules/*
-/otcdocstheme/theme/otcdocs/static/node_modules/
